@@ -7,7 +7,7 @@ import {
   View
 } from 'react-native';
 
-export default class HitungLuasSegitiga extends Component {
+export default class VolumeBalok extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -73,4 +73,4 @@ export default class HitungLuasSegitiga extends Component {
   } //tutup render
 } //tutup class
 
-AppRegistry.registerComponent('AppForm2', () => HitungLuasSegitiga);
+AppRegistry.registerComponent('AppForm2', () => VolumeBalok);
